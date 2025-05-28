@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="French.css">
+    <title>French with English</title>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: lightblue; padding: 20px">Let's Study French With English</h1>
+        <h4>英語と比較してフランス語を学ぼう</h4>
+    </header>
+    <h2>
+        <p style="background-color: lightgreen; width: 1250px">　　　　＜主語人称代名詞＞　　　　　　　　＜動詞être(be)＞</p>
+        <table>
+            
+            <tr>
+                <th><h3>　　　English</h3></th>
+                <th><h3>　　　French</h3></th>
+                <th><h3>　　　　　　　English</h3></th>
+                <th><h3>　　　French</h3></th>
+            </tr>
+            <tr>
+                <td>　　　　　I</td>
+                <td>　　　　　je</td>
+                <td>　　　　　　　　　I am</td>
+                <td>　　　　　　　je suis</td>
+            </tr>
+            <tr>
+                <td>　　　　　you(sg.)</td>
+                <td>　　　　　tu・vous</td>
+                <td>　　　　　　　　　you are</td>
+                <td>　　　　　　　tu es</td>
+            </tr>
+            <tr>
+                <td>　　　　　he</td>
+                <td>　　　　　il</td>
+                <td>　　　　　　　　　he is</td>
+                <td>　　　　　　　il est</td>
+                
+            </tr>
+            <tr>
+                <td>　　　　　she</td>
+                <td>　　　　　elle</td>
+                <td>　　　　　　　　　she is</td>
+                <td>　　　　　　　elle est</td>
+            </tr>
+            
+            <tr>
+                <td>　　　　　we</td>
+                <td>　　　　　nous</td>
+                <td>　　　　　　　　　we are</td>
+                <td>　　　　　　　nous sommes</td>
+            </tr>
+            <tr>
+                <td>　　　　　you(pl.)</td>
+                <td>　　　　　vous</td>
+                <td>　　　　　　　　　you are</td>
+                <td>　　　　　　　vous êtes</td>
+            </tr>
+            <tr>
+                <td>　　　　　they(m.)</td>
+                <td>　　　　　ils</td>
+                <td>　　　　　　　　　they are</td>
+                <td>　　　　　　　ils sont</td>
+            </tr>
+            <tr>
+                <td>　　　　　they(f.)</td>
+                <td>　　　　　elles</td>
+                <td>　　　　　　　　　they are</td>
+                <td>　　　　　　　elles sont</td>
+            </tr>
+        </table>
+    </h2>
+    <h5>　</h5>
+    <h5>上の例から分かるようにフランス語は英語と対応していることがあります。</h5>
+    <h5>
+        動詞は他にも沢山ありますが、英語の「have」に対応するフランス語の汎用性の高い動詞「avoir」について知りたいなら
+        <a href="avoir.html">こちら</a>をクリック！
+    </h5>
+    <img src="village-7258991_1280.jpg" alt="">
+    <h5>
+        <label for="name">ここにあなたの名前を英語で入力してみてください。</label>
+        <input type="text" id="name" placeholder="your name">
+        <button id="click">click here</button>
+        <h5 id="result"></h5>
+    </h5>
+    <script>
+        const nameinput=document.getElementById("name");
+        const sentence=document.getElementById("click");
+        const result=document.getElementById("result");
+
+        sentence.addEventListner("click", function(){
+            const Name=nameinput.value;
+            result.textContent=Name + " a deux ans.";
+        });
+    </script>
+    <h5>このように、名前はilやelleと同じ扱いになります。</h5>
+    <h5>また、フランス語には性別で変化する語彙が多く、英語のtheに対応するフランス語は男性系でle,女性系でla,複数形ならどちらの性別でもlesとなります。
+    指示形容詞については<a href="siji.html">ここ</a>をクリック
+    </h5>
+</body>
+</html>

@@ -1,0 +1,18 @@
+header{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.kiro{
+    color: orange;
+    font-size: 35px
+}
+
+#p{
+    color: purple;
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
